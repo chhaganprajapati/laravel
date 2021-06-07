@@ -31,4 +31,9 @@ class SettingController extends Controller
         return Redirect()->route('social.setting')->with($notification);
 
     }
+
+    public function SEOSetting(){
+        $seo = DB::table('seos')->first();
+        return view('backend.setting.seo',compact('seo'));
+    }
 }

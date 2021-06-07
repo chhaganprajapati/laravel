@@ -123,6 +123,7 @@
         <div class="collapse" id="setting">
           <ul class="nav flex-column sub-menu">
             <li class="nav-item"> <a class="nav-link" href="{{ route('social.setting') }}">Social Settings</a></li>
+            <li class="nav-item"> <a class="nav-link" href="{{ route('seo.setting') }}">SEO Settings</a></li>
           </ul>
         </div>
       </li>
